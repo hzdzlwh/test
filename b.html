@@ -8,6 +8,14 @@
     function b() {
         console.log('b');
     }
+
+    function Person(name) {
+			this.name = name
+    }
+
+    Person.prototype.sayName = function() {
+			console.log(this.name)
+    }
 </script>
 
 </body>
